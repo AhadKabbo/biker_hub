@@ -12,9 +12,140 @@
       crossorigin="anonymous"
     />
   </head>
-  <body>
+  <body class="container-lg">
     <header>
-      <nav></nav>
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid">
+          <a class="navbar-brand fw-bold" href="#">BIKE HUB</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-5 ms-auto mb-2 mb-lg-0 fw-semibold">
+              <li class="nav-item ms-5">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item ms-5">
+                <a class="nav-link" href="#">About</a>
+              </li>
+
+              <li class="nav-item ms-5">
+                <a class="nav-link">Blogs</a>
+              </li>
+            </ul>
+
+            <button class="btn btn-outline-success pb-2" type="submit">
+              Login
+            </button>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Banner slider -->
+
+      <div
+        id="carouselExampleAutoplaying"
+        class="carousel slide mt-5"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="row">
+              <div
+                class="col-12 col-md-4 d-flex justify-content-center align-items-center"
+              >
+                <div>
+                  <p>Amet minim mollit non deserunt ullamco est sit aliqua</p>
+                  <h1 class="fw-bold">Honda CBR 300R</h1>
+                  <p>
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                    do amet sint. Velit officia consequat duis enim velit
+                    mollit. Exercitation veniam consequat sunt nostrud amet.
+                  </p>
+                  <button class="btn btn-danger pb-2" type="button">
+                    Purchase
+                  </button>
+                </div>
+              </div>
+              <div class="col-12 col-md-8 mt-3">
+                <img src="images/bike-1.png" class="d-block w-100" alt="..." />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div
+                class="col-12 col-md-4 d-flex justify-content-center align-items-center"
+              >
+                <div>
+                  <p>Amet minim mollit non deserunt ullamco est sit aliqua</p>
+                  <h1 class="fw-bold">YAMAHA CBR 300R</h1>
+                  <p>
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                    do amet sint. Velit officia consequat duis enim velit
+                    mollit. Exercitation veniam consequat sunt nostrud amet.
+                  </p>
+                  <button class="btn btn-danger pb-2" type="button">
+                    Purchase
+                  </button>
+                </div>
+              </div>
+              <div class="col-12 col-md-8 mt-3">
+                <img src="images/bike-3.png" class="d-block w-100" alt="..." />
+              </div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row">
+              <div
+                class="col-12 col-md-4 d-flex justify-content-center align-items-center"
+              >
+                <div>
+                  <p>Amet minim mollit non deserunt ullamco est sit aliqua</p>
+                  <h1 class="fw-bold">TVS CBR 300R</h1>
+                  <p>
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor
+                    do amet sint. Velit officia consequat duis enim velit
+                    mollit. Exercitation veniam consequat sunt nostrud amet.
+                  </p>
+                  <button class="btn btn-danger pb-2" type="button">
+                    Purchase
+                  </button>
+                </div>
+              </div>
+              <div class="col-12 col-md-8 mt-3">
+                <img src="images/bike-2.png" class="d-block w-100" alt="..." />
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleAutoplaying"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
     </header>
     <h1>Hello, world!</h1>
     <script
